@@ -5,3 +5,48 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
+.homeContainer img{
+    width: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.homeContainer a{
+    width: 160px;
+    background-color: rgb(67, 121, 201) !important;;
+    margin-bottom: 13px;
+    margin-top: 5px;
+    padding: 4px 15px;
+    box-shadow: 0 2px 7px -2px rgba(0,0,0,.9) !important;
+}
+
+.navbar {
+    background-color: rgb(67, 121, 201) !important;
+    box-shadow: 0 2px 7px -2px rgba(0,0,0,.8);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    padding: 15px;
+  
+}
+
+.btn-beer {
+    width: 200px !important;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(2, 22, 68);
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+}
